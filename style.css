@@ -98,6 +98,11 @@ header {
 
 .projects-item {
   display: flex;
+  align-items: center;
+}
+
+.projects-item a{
+    font-size: 18px;
 }
 
 .project img {
