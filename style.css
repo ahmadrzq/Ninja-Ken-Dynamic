@@ -104,8 +104,8 @@ header {
 
 .projects-item a{
     font-size: 25px;
-    margin: 0px 20px;
     user-select: none;
+    cursor: pointer;
 }
 
 .project {
@@ -113,8 +113,34 @@ header {
 }
 
 .project img {
-  width: 70%;
+  width: 40%;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* Animasi */
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name:fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{
+        opacity: 0.6;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fade{
+    from{
+        opacity: 0.6;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .project p {
