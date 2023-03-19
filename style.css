@@ -99,10 +99,17 @@ header {
 .projects-item {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .projects-item a{
-    font-size: 18px;
+    font-size: 25px;
+    margin: 0px 20px;
+    user-select: none;
+}
+
+.project {
+    display: none;
 }
 
 .project img {
