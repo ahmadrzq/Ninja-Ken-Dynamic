@@ -1,1 +1,1 @@
-# Ninja-Ken-Dynamic
+This is the ninja ken project that applies animated elements and dynamic elements to the website
