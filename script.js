@@ -1,3 +1,4 @@
+// Slider-------------------------------
 let slideIndex = 0;
 
 const updateSlide = (n) => {
@@ -22,3 +23,17 @@ const showSlide = (n) => {
 };
 
 showSlide(slideIndex);
+
+// Modal---------------------------------
+const btn = document.querySelectorAll(".img-btn-modal");
+const modal = document.querySelectorAll(".modalDescription");
+const buttonClose = document.querySelectorAll(".close");
+
+for (let i = 0; i < btn.length; i++) {
+    btn[i].addEventListener('click', ()=>{
+        modal[i].style.display = "block";
+    })
+    buttonClose[i].addEventListener('click', ()=> {
+        modal[i].style.display = "none";
+    })
+}

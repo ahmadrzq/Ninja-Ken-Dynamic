@@ -40,6 +40,10 @@
     margin-bottom: 30px;
   }
 
+  .modalDescription{
+    padding: 150px 30px !important;
+  }
+
   .row input,
   .row textarea {
     width: 80% !important;
@@ -72,6 +76,7 @@
     font-size: 18px !important;
     margin: 0 !important;
   }
+
   .project {
     width: 85% !important;
   }
