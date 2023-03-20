@@ -3,13 +3,11 @@ let slideIndex = 0;
 
 const updateSlide = (n) => {
   slideIndex += n;
-  console.log(slideIndex);
   showSlide(slideIndex);
 };
 
 const showSlide = (n) => {
   const slides = document.getElementsByClassName("project");
-  console.log(slides);
   if (n > slides.length - 1) {
     slideIndex = 0;
   }
@@ -63,4 +61,19 @@ function validation() {
       return true;
     }
   }
+}
+
+// Accordion
+const buttonFaq = document.getElementsByClassName("btn-faq");
+const answer = document.getElementsByClassName("answer");
+
+for (let i = 0; i < buttonFaq.length; i++) {
+  buttonFaq[i].addEventListener("click", function () {
+    // const answer = this.nextElementSibling;
+    if (answer[i].style.display === "block") {
+      answer[i].style.display = "none";
+    } else {
+      answer[i].style.display = "block";
+    }
+  });
 }
