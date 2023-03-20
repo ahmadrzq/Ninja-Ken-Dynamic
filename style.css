@@ -182,7 +182,7 @@ header {
 
 /* Contact Me */
 .contact-me {
-  padding: 100px 20px;
+  padding: 100px 20px 50px;
   background-color: #f4f4f4ff;
   text-align: center;
 }
@@ -218,6 +218,50 @@ header {
     filter: brightness(0.9);
 }
 /* Contact Me */
+
+/* FAQ */
+.faq{
+    padding: 50px 50px;
+    background: silver;
+}
+
+.faq-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accordion{
+    width: 50%;
+    padding: 2px;
+}
+
+.btn-faq{
+    background: goldenrod;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+}
+
+.btn-faq:hover{
+    filter: brightness(0.8);
+}
+
+.panel{
+    display: block;
+    background: gainsboro;
+}
+
+.panel p{
+    padding:0 0 5px;
+}
+
+
+/* FAQ */
 
 /* Footer */
 footer {
