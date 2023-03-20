@@ -33,7 +33,7 @@
   }
 
   .project {
-    width: 50%;
+    width: 60% !important;
   }
 
   .project p {
@@ -67,8 +67,13 @@
   .hero img {
     width: 250px !important;
   }
+
+  .projects-item a {
+    font-size: 18px !important;
+    margin: 0 !important;
+  }
   .project {
-    width: 100%;
+    width: 85% !important;
   }
 
   .row input,
