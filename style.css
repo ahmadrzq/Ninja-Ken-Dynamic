@@ -251,12 +251,12 @@ header {
     filter: brightness(0.8);
 }
 
-.panel{
+.answer{
     display: none;
     background: gainsboro;
 }
 
-.panel p{
+.answer p{
     padding:0 0 5px;
 }
 
