@@ -211,6 +211,11 @@ header {
   padding: 15px;
   background-color: #f7e989ff;
   border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+    filter: brightness(0.9);
 }
 /* Contact Me */
 

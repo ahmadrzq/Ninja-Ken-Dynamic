@@ -150,14 +150,14 @@
     <!-- Contact Me -->
     <div class="contact-me">
       <h1>Hubungi Saya</h1>
-      <div class="form">
+      <form class="form" name="myForm" onsubmit="return validation()">
         <div class="row">
-          <input type="text" placeholder="Email (diperlukan)" />
+          <input type="text" name="email" placeholder="Email (diperlukan)" />
         </div>
         <div class="row">
           <textarea
             placeholder="Message (diperlukan)"
-            name=""
+            name="message"
             id=""
             cols="30"
             rows="5"
@@ -166,7 +166,7 @@
         <div class="row">
           <input class="submit" type="submit" value="Kirim" />
         </div>
-      </div>
+      </form>
     </div>
     <!-- Contact Me -->
 
