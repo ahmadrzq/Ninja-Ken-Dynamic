@@ -252,7 +252,7 @@ header {
 }
 
 .panel{
-    display: block;
+    display: none;
     background: gainsboro;
 }
 
