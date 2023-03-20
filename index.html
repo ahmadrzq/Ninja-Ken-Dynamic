@@ -26,15 +26,16 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="header-logo">NINJA KEN</div>
+      <div class="header-logo"><a href="index.html">NINJA KEN</a></div>
       <div class="bar">
         <i class="fa-solid fa-bars"></i>
       </div>
       <div class="header-list">
         <ul>
-          <li>Tentang Saya</li>
-          <li>Proyek Contoh</li>
-          <li>Hubungi Saya</li>
+          <li><a href="#about">Tentang Saya</a></li>
+          <li><a href="#project">Proyek Contoh</a></li>
+          <li><a href="#contact">Hubungi Saya</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
       </div>
     </header>
@@ -49,7 +50,7 @@
     <!-- Hero -->
 
     <!-- About Me -->
-    <div class="about-me">
+    <div class="about-me" id="about">
       <h1>Tentang Saya</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
@@ -69,7 +70,7 @@
     <!-- About Me -->
 
     <!-- Project -->
-    <div class="projects">
+    <div class="projects" id="project">
       <h1>Project Contoh</h1>
       <div class="projects-item">
         <a onclick="updateSlide(-1)"><i class="fas fa-arrow-left"></i></a>
@@ -148,7 +149,7 @@
     <!-- Project -->
 
     <!-- Contact Me -->
-    <div class="contact-me">
+    <div class="contact-me" id="contact">
       <h1>Hubungi Saya</h1>
       <form class="form" name="myForm" onsubmit="return validation()">
         <div class="row">
@@ -171,14 +172,14 @@
     <!-- Contact Me -->
 
     <!-- FAQ -->
-    <div class="faq">
-      <div class="container">
+    <div class="faq" id="faq">
+      <div class="container" >
         <div class="faq-title">
           <h1>FAQ</h1>
         </div>
         <div class="faq-item">
           <div class="accordion">
-            <button class="btn-faq">Q1</button>
+            <button class="btn-faq">Apa saja layanan yang saya sediakan?</button>
             <div class="answer">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
@@ -189,7 +190,7 @@
             </div>
           </div>
           <div class="accordion">
-            <button class="btn-faq">Q2</button>
+            <button class="btn-faq">Bagaimana cara menggunakan layanan saya?</button>
             <div class="answer">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
@@ -200,7 +201,7 @@
             </div>
           </div>
           <div class="accordion">
-            <button class="btn-faq">Q3</button>
+            <button class="btn-faq">Apakah ada garansi untuk layanan saya?</button>
             <div class="answer">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
@@ -211,7 +212,7 @@
             </div>
           </div>
           <div class="accordion">
-            <button class="btn-faq">Q4</button>
+            <button class="btn-faq">Mengapa harus menggunakan layanan saya?</button>
             <div class="answer">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
